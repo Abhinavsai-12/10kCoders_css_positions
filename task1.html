@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: blanchedalmond;
+        }
+        .parent{
+            background-color: rgb(254, 202, 137);
+            border: 2px solid black;
+            width:750px;
+            height: 450px;
+            position: relative;
+            bottom:  10;
+            left: 20%;
+            transform: translate(10%, 26%);
+            /* 
+            Use transform: translate(10%, 26%) 
+            to offset the div back by half its own
+            width and height, effectively centering it.
+            */
+        }
+
+        .img1{
+            position: absolute;
+            top: -65px;
+            left: -65px;
+        }
+        .img2{
+            position: absolute;
+            top: -75px;
+            right: 300px;
+        }
+        .img3{
+            position: absolute;
+            right: -65px;
+            top: -65px;
+        }
+
+        .img4{
+            position: absolute;
+            bottom: -65px;
+            left: -65px;
+        }
+        .img5{
+            position: absolute;
+            bottom: -65px;
+            right: 300px;
+        }
+        .img6{
+            position: absolute;
+            bottom: -65px;
+            right: -65px;
+        }
+        h1{
+            position: absolute;
+            background-color: rgb(217, 241, 120);
+            top: 190px;
+            left:305px;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <div class="parent">
+
+        <img class="img1" src="img2.jpeg" alt="" width="150px" height="150px">
+        <img class="img2" src="img2.jpeg" alt="" width="150px" height="150px">
+        <img class="img3" src="img2.jpeg" alt="" width="150px" height="150px">
+        <br>
+        <h1>Task 1 Positions</h1>
+        <br>
+        <img class="img4" src="img2.jpeg" alt="" width="150px" height="150px">
+        <img class="img5" src="img2.jpeg" alt="" width="150px" height="150px">
+        <img class="img6" src="img2.jpeg" alt="" width="150px" height="150px">
+    </div>
+    
+</body>
+</html>
